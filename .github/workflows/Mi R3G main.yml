@@ -23,7 +23,7 @@ on:
 permissions:
   contents: write
 env:
-  REPO_URL: git clone -b master --single-branch https://github.com/immortalwrt/immortalwrt
+  REPO_URL: https://github.com/immortalwrt/immortalwrt
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: .config-r3g
