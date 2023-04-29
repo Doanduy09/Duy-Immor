@@ -2,7 +2,7 @@
 # Copyright (c) 2023
 #
 
-name: Build X-Wrt R3G
+name: Build Rom Immor R3G
 
 on:
   release:
