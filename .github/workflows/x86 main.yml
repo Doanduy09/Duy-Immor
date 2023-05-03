@@ -2,7 +2,7 @@
 # Copyright (c) 2023
 #
 
-name: Build X-Wrt R3G
+name: Build X-Wrt X86
 
 on:
   release:
