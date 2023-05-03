@@ -91,7 +91,7 @@ jobs:
         run: |
           [ -e files ] && mv files openwrt/files
           [ -e $CONFIG_FILE ] && mv $CONFIG_FILE openwrt/.config
-          sed -i 's/CONFIG_VERSION_NUMBER\s*=.*/CONFIG_VERSION_NUMBER=$xwrt_version/g' openwrt/.config
+          sed -i 's/CONFIG_VERSION_NUMBER\s*=.*/CONFIG_VERSION_NUMBER=$immortalwrt_version/g' openwrt/.config
           chmod +x $DIY_P2_SH && sed -i -e 's/\r$//' $GITHUB_WORKSPACE/$DIY_P2_SH
           cd openwrt
           $GITHUB_WORKSPACE/$DIY_P2_SH
