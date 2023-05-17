@@ -139,7 +139,7 @@ jobs:
         uses: actions/upload-artifact@main
         if: steps.compile.outputs.status == 'success' && env.UPLOAD_BIN_DIR == 'true'
         with:
-          name: Xwrt-${{ env.DEVICE_NAME }}${{ env.FILE_DATE }}
+          name: DOANDUY-${{ env.DEVICE_NAME }}${{ env.FILE_DATE }}
           path: openwrt/bin
 
       - name: Organize files
@@ -155,7 +155,7 @@ jobs:
         uses: actions/upload-artifact@main
         if: steps.organize.outputs.status == 'success' && !cancelled()
         with:
-          name: x-wrt-${{ env.DEVICE_NAME }}${{ env.FILE_DATE }}
+          name: DOANDUY-${{ env.DEVICE_NAME }}${{ env.FILE_DATE }}
           path: ${{ env.FIRMWARE }}
 
       - name: Generate release tag
