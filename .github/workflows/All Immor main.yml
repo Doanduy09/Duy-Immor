@@ -2,7 +2,7 @@
 # Copyright (c) 2023
 #
 
-name: Build Immor
+name: Build Immor All Rom
 
 on:
   release:
