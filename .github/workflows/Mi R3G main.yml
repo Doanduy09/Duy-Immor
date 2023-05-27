@@ -12,6 +12,7 @@ on:
       - master
   repository_dispatch:
   workflow_dispatch:
+  workflow_dispatch:#l schedule: - cron: 0 5 * * 6
     inputs:
       ssh:
         description: "SSH connection to Actions"
