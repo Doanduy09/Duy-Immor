@@ -11,9 +11,9 @@ on:
     branches:
       - master
   repository_dispatch:
- workflow_dispatch:  
-  schedule:
-    - cron: 0 19 * * 5
+  workflow_dispatch: 
+    schedule:
+     - cron: 0 19 * * 5
     inputs:
       ssh:
         description: "SSH connection to Actions"
