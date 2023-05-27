@@ -12,7 +12,7 @@ on:
       - master
   repository_dispatch:
   workflow_dispatch:  
-  schedule:
+   schedule:
     - cron: 0 19 * * 5
     inputs:
       ssh:
