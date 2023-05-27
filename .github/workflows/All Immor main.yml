@@ -184,5 +184,4 @@ jobs:
           delete_tags: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          
-    workflow_dispatch:#l schedule: - cron: 0 5 * * 6
+        
