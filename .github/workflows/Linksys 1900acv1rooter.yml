@@ -11,7 +11,7 @@ on:
     types: [published]
   push:
     branches:
-      - Doanduy09
+      - master
   repository_dispatch:
   workflow_dispatch: 
     inputs:
@@ -27,8 +27,8 @@ permissions:
   contents: write
 
 env:
-  REPO_URL: https://github.com/Doanduy09/Immortalwrt
-  REPO_BRANCH: Doanduy09
+  REPO_URL: https://github.com/immortalwrt/immortalwrt
+  REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: .config_1900acv1rooter
   DIY_P1_SH: diy-part1.sh
