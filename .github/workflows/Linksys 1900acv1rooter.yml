@@ -28,7 +28,7 @@ permissions:
 
 env:
   REPO_URL: https://github.com/Doanduy09/Immortalwrt
-  REPO_BRANCH: master
+  REPO_BRANCH: Doanduy09
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: .config_1900acv1rooter
   DIY_P1_SH: diy-part1.sh
